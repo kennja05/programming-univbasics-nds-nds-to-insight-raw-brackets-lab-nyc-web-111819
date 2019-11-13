@@ -16,12 +16,4 @@ while director_index < nds.count do
   director_index += 1 
 end 
     
-    
-
-
- 
-
-
-result = {:spielberg => directors_database[0][:movies][0][:worldwide_gross]}
-pp nds
 end
