@@ -5,7 +5,10 @@ require 'pp'
 def directors_totals(nds)
 result = {}
 director_index = 0 
-movie_index = 0 
+while director_index < nds.count do 
+  movie_index = 0
+  while movie_index < nds[director_index].count do
+    
 
 
  
