@@ -11,7 +11,7 @@ while director_index < nds.count do
   while movie_index < nds[director_index][:movies].count do
     running_total = running_total + nds[director_index][:movies][movie_index][:worldwide_gross]
     pp "the running total for #{nds[director_index][:name]} is #{running_total}"
-    #running_total += running_total + nds[director_index][:movies][movie_index][:worldwide_gross]
+    
     movie_index += 1 
   end
   director_index += 1 
