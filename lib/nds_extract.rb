@@ -17,5 +17,5 @@ while director_index < nds.count do
   end
   director_index += 1 
 end 
-    
+ result   
 end
